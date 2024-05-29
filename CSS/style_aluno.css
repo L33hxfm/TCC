@@ -180,6 +180,7 @@ html{
 }
 
 .option-sub-itens a{
+
     align-items: right;
     text-align: right;
     font-weight: bold;
@@ -201,6 +202,71 @@ html{
     transition: all .5s ease;
 }
 /* Header */
+
+/* Main */
+main{
+    padding-top: 150px;
+}
+
+.mural_escolar {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.item_mural_container {
+    display: flex;
+    gap: 20px; /* Ajuste o valor conforme necessário para o espaçamento desejado */
+    justify-content: center;
+}
+
+
+.calendario {
+    height: 150px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-weight: bold;
+    color: #000;
+}
+
+.avisos {
+    height: 150px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-weight: bold;
+    color: #000;
+}
+
+.calendario a{
+    padding: 1rem;
+    align-items: center;
+    text-align: right;
+    font-weight: bold;
+    color: #000;
+    transition: all .5s ease;
+}
+.avisos a{
+    padding: 1rem;
+    align-items: center;
+    text-align: right;
+    font-weight: bold;
+    color: #000;
+    transition: all .5s ease;
+}
 
 /* Fim pág */
 #Contato {
