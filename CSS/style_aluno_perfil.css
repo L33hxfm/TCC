@@ -3,17 +3,26 @@
     box-sizing: border-box;
 }
 
+body, html{
+    height: 100%;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+
 .user-panel {
-    display: flex;
+    display: grid;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
     text-align: center;
+    place-items: center;
 }
 
 button {
-    width: 5%;
-    padding: 10px;
+    height: 40px;
+    width: 100px;
+    margin: 10px;
     background-color: #ff0000;
     color: white;
     border: none;
