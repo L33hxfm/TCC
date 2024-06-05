@@ -33,5 +33,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.getElementById("btnSair").addEventListener("click", function() {
     // Aqui você pode adicionar a lógica para sair do sistema (por exemplo, redirecionamento para a página de login)
-    window.location.href = "index.html";
+    window.location.href = "aluno.html";
 });
