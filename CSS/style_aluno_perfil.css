@@ -1,42 +1,85 @@
-*{
-    font-family: "Helvetica",	"Lucida	Grande",	sans-serif;
-    box-sizing: border-box;
+/* Perfil */
+#Perfil{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
 }
 
-body, html{
-    height: 100%;
-    margin: 0;
+.logo_cps img {
+    position: absolute;
+    width: 95px;
+    height: 62px;
+    bottom: 10px;
+    right: 20px;
+}  
+
+.perfil{
     display: grid;
-    place-items: center;
+    margin: auto;
+    background-color: #ffffff;
+    width: 50%;
+    height: 60%;
+    border: solid 0px #000;
+    border-radius: 10px;
 }
 
-.user-panel {
+.img_perfil{
+    display: flex;
+    margin: auto;
+}
+
+.img_perfil img{
+    border-radius: 180px;
+}
+
+.info_perfil{
     display: grid;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    text-align: center;
-    place-items: center;
+    margin: auto;
 }
-
-button {
-    height: 40px;
-    width: 100px;
-    margin: 10px;
-    background-color: #ff0000;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
+.perfil_itens{
+    display: flex;
+    padding-bottom: 5px;
     align-items: center;
     text-align: center;
 }
 
-button:hover {
-    background-color: #7e0000;
+.item_text{
+    color: black;
+    font-weight: bold;
+    padding-right: 5px;
 }
 
-.user-img img{
-    width: 200px;
-    height: 200px;
+#NOME_ALUNO{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
 }
+
+#RM_ALUNO{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#RA_ALUNO{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#EMAIL_INSTI_ALUNO{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cursos{
+    display: flex;
+}
+
+#CURSO_ALUNO{
+    color: #000;
+    font-weight: 600;
+}
+/* Perfil */
