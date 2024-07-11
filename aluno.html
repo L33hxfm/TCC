@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="./IMG/logo-cps.ico" type="image/x-icon">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style_calendario.css">
     <link rel="stylesheet" href="CSS/style_aluno.css">
 
     <!-- Box Icons -->
@@ -178,46 +179,6 @@
                 </ul>
             </div>
         </div>
-
-        <!-- Header options -->
- <!--       <div class="header-options">
-            <a href="">
-                <div class="option-itens">
-                    <ul>
-                        <li>
-                            <p>
-                                Menu
-                                <i class="fas fa-caret-down"></i>
-                            </p>
-                            <div class="option-sub-itens">
-                                <ul>
-                                    <a href="aluno_perfil.html">
-                                        <li>
-                                            Perfil
-                                        </li>
-                                    </a>
-                                    <a href="sobre.html">
-                                        <li>
-                                            Sobre
-                                        </li>
-                                    </a>
-                                    <a href="#Contato">
-                                        <li>
-                                            Contato
-                                        </li>
-                                    </a>
-                                    <a href="index.html">
-                                        <li>
-                                            Sair
-                                        </li>
-                                    </a>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </a>
-        </div>-->
     </header>
 
     <main>
@@ -225,20 +186,60 @@
         <div class="mural">
             <h2 class="mural_escolar">Mural Escolar</h2>
             <div class="item_mural_container">
-                <div class="calendario">
-                    <a href="">
-                        Calendário
-                    </a>
-                </div>
-                <div class="avisos">
-                    <a href="">
-                        Avisos
-                    </a>
+                    <!-- Calendário-->
+                            <div id="Calendario">
+                                <!-- Div Calendário -->
+                                <div class="calendario">
+                                    <!-- Cabeçalho -->
+                                    <a href="">
+                                    Calendário
+                                    </a>
+                                    <div class="cabecalho">
+                                        <!-- Botão mês anterior -->
+                                        <button id="anterior">&lt;</button> 
+                                        <!-- Botão mês anterior -->
+
+                                        <!-- mês e o ano atual -->
+                                        <h2 id="mes-ano"></h2>
+                                        <!-- mês e o ano atual -->
+
+                                        <!-- Botão próximo mês -->
+                                        <button id="proximo">&gt;</button>
+                                        <!-- Botão próximo mês -->
+                                    </div>
+                                    <!-- Cabeçalho -->
+
+                                    <!-- Dias Semana -->
+                                    <div class="dias-semana">
+                                        <div>Dom</div>
+                                        <div>Seg</div>
+                                        <div>Ter</div>
+                                        <div>Qua</div>
+                                        <div>Qui</div>
+                                        <div>Sex</div>
+                                        <div>Sáb</div>
+                                    </div>
+                                    <!-- Dias Semana -->
+
+                                    <!-- Dias -->
+                                    <div class="dias" id="dias"></div>
+                                    <!-- Dias -->
+                                </div>
+                                <!-- Div Calendário -->
+                            </div>
+                            <!-- Calendário-->
+                        </a>
+                    <div class="avisos">
+                        <a href="">
+                            Avisos
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 
+                        
     <!--Contato-->
     <section class="Contato" id="Contato">
         <div class="meio-contato">
@@ -338,7 +339,7 @@
             </div>
 
     </section>
-    <script src="./JS/script_calendar.js"></script>
+    <script src="./JS/script_calendario.js  "></script>
 </body>
 
 </html>
