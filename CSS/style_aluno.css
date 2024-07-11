@@ -1,4 +1,4 @@
-*{
+* {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
@@ -7,16 +7,16 @@
     list-style: none;
 }
 
-body{
+body {
     background-color: #F0EFEA;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 /* Header */
-#Cabecalho{
+#Cabecalho {
     background-image: linear-gradient(to right, #8f0000, #ad0000);
     position: fixed;
     top: 0;
@@ -30,7 +30,7 @@ html{
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
@@ -39,47 +39,47 @@ html{
     align-items: center;
 }
 
-.navbar{
+.navbar {
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
 
-.nav-itens{
+.nav-itens {
     cursor: pointer;
     padding-top: 65px;
     margin: 0px auto;
 }
 
-.nav-itens ul{
+.nav-itens ul {
     width: 200px;
 }
 
-.nav-itens li{
+.nav-itens li {
     width: 200px;
 }
 
-.nav-itens p{
+.nav-itens p {
     color: #FFF;
     font-weight: bold;
 }
 
-.nav-itens i{
+.nav-itens i {
     padding-left: 5px;
 }
 
-.nav-itens:hover p{
+.nav-itens:hover p {
     color: #000;
     transition: all .5s ease;
 }
 
-.nav-itens:hover i{
+.nav-itens:hover i {
     color: #000;
     transition: all .5s ease;
 }
 
 /* Esconder e Mostrar elementos*/
-.nav-itens:hover .nav-sub-itens{
+.nav-itens:hover .nav-sub-itens {
     display: grid;
     position: absolute;
     left: auto;
@@ -92,18 +92,18 @@ html{
 }
 
 
-.nav-sub-itens{
+.nav-sub-itens {
     display: none;
 }
 
-.nav-sub-itens a{
+.nav-sub-itens a {
     align-items: left;
     text-align: left;
     font-weight: bold;
     padding: 0;
 }
 
-.nav-sub-itens ul li{
+.nav-sub-itens ul li {
     padding: 1rem;
     align-items: center;
     text-align: left;
@@ -112,14 +112,14 @@ html{
     transition: all .5s ease;
 }
 
-.nav-sub-itens li:hover{
+.nav-sub-itens li:hover {
     background-color: rgb(153, 0, 0);
-    color:#FFF;
+    color: #FFF;
     transition: all .5s ease;
 }
 
 /* Options */
-.header-options{
+.header-options {
     margin-left: auto;
     margin-right: 10%;
     text-align: center;
@@ -128,41 +128,41 @@ html{
     height: 97px;
 }
 
-.option-itens{
+.option-itens {
     cursor: pointer;
     padding-top: 65px;
     height: 97px;
 }
 
-.option-itens ul{
+.option-itens ul {
     width: 100px;
 }
 
-.option-itens li{
+.option-itens li {
     width: 100px;
 }
 
-.option-itens p{
+.option-itens p {
     color: #FFF;
     font-weight: bold;
 }
 
-.option-itens i{
+.option-itens i {
     padding-left: 5px;
 }
 
-.option-itens:hover p{
+.option-itens:hover p {
     color: #000;
     transition: all .5s ease;
 }
 
-.option-itens:hover i{
+.option-itens:hover i {
     color: #000;
     transition: all .5s ease;
 }
 
 /* Esconder e Mostrar elementos*/
-.option-itens:hover .option-sub-itens{
+.option-itens:hover .option-sub-itens {
     display: grid;
     position: absolute;
     left: auto;
@@ -175,11 +175,11 @@ html{
 }
 
 
-.option-sub-itens{
+.option-sub-itens {
     display: none;
 }
 
-.option-sub-itens a{
+.option-sub-itens a {
 
     align-items: right;
     text-align: right;
@@ -187,7 +187,7 @@ html{
     padding: 0;
 }
 
-.option-sub-itens ul li{
+.option-sub-itens ul li {
     padding: 1rem;
     align-items: center;
     text-align: right;
@@ -196,15 +196,16 @@ html{
     transition: all .5s ease;
 }
 
-.option-sub-itens li:hover{
+.option-sub-itens li:hover {
     background-color: #990000;
-    color:#FFF;
+    color: #FFF;
     transition: all .5s ease;
 }
+
 /* Header */
 
 /* Main */
-main{
+main {
     padding-top: 150px;
 }
 
@@ -218,15 +219,13 @@ main{
 
 .item_mural_container {
     display: flex;
-    gap: 20px; /* Ajuste o valor conforme necessário para o espaçamento desejado */
+    gap: 10px;
     justify-content: center;
 }
 
-
 .calendario {
-    height: 150px;
     width: 600px;
-    display: flex;
+    display: block;
     justify-content: center;
     margin: 20px;
     padding: 20px;
@@ -238,11 +237,12 @@ main{
 }
 
 .avisos {
-    height: 150px;
+    height: 360px;
     width: 600px;
     display: flex;
     justify-content: center;
     margin: 20px;
+    margin-top: 34.84px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -251,7 +251,7 @@ main{
     color: #000;
 }
 
-.calendario a{
+.item_mural_container a {
     padding: 1rem;
     align-items: center;
     text-align: right;
@@ -259,7 +259,8 @@ main{
     color: #000;
     transition: all .5s ease;
 }
-.avisos a{
+
+.calendario a {
     padding: 1rem;
     align-items: center;
     text-align: right;
@@ -267,6 +268,7 @@ main{
     color: #000;
     transition: all .5s ease;
 }
+
 
 /* Fim pág */
 #Contato {
@@ -303,11 +305,11 @@ main{
     transition: all .35s ease;
 }
 
-.icons{
+.icons {
     display: flex;
 }
 
-.social_icon a{
+.social_icon a {
     padding-right: 1rem;
     cursor: pointer;
     display: inline-flex;
@@ -316,48 +318,48 @@ main{
     transition: all .5s ease;
 }
 
-.social_icon a:hover{
+.social_icon a:hover {
     transform: translateY(-5px);
     transition: all .5s ease;
     font-size: 48px;
     transition: all .5s ease;
 }
 
-.vesti-etec a{
+.vesti-etec a {
     transition: all .5s ease;
 }
 
-.vesti-etec a:hover{
+.vesti-etec a:hover {
     color: red;
     transition: all .5s ease;
 }
 
-.vesti-fatec a:hover{
+.vesti-fatec a:hover {
     color: rgb(0, 110, 255);
     transition: all .5s ease;
 }
 
-.web-sai a:hover{
+.web-sai a:hover {
     color: rgb(255, 123, 0);
     transition: all .5s ease;
 }
 
-.inova-cps a:hover{
+.inova-cps a:hover {
     color: rgb(0, 255, 136);
     transition: all .5s ease;
 }
 
-.email-insti a:hover{
+.email-insti a:hover {
     color: rgb(17, 0, 255);
     transition: all .5s ease;
 }
 
-.email a:hover{
+.email a:hover {
     color: rgb(255, 0, 149);
     transition: all .5s ease;
 }
 
-.suporte a:hover{
+.suporte a:hover {
     color: indigo;
     transition: all .5s ease;
 }
