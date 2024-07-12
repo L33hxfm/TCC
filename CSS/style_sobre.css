@@ -40,6 +40,14 @@ html{
     align-items: center;
 }
 
+.logo_cps img {
+    position: absolute;
+    width: 95px;
+    height: 62px;
+    bottom: 10px;
+    right: 20px;
+}  
+
 .navbar{
     display: flex;
     margin-left: auto;
