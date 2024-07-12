@@ -215,6 +215,7 @@ main {
     justify-content: center;
     font-weight: bold;
     padding-bottom: 40px;
+    pointer-events: none;
 }
 
 .item_mural_container {
