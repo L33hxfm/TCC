@@ -38,6 +38,18 @@
     text-align: center;
 }
 
+.email_itens button{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px 15px;
+    margin-top: -25px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(94, 11, 11) ;
+    border: 1px #000 solid;
+}
+
 .item_email{
     color: black;
     font-weight: bold;
