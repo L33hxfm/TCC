@@ -14,6 +14,6 @@ document.getElementById('recuperarSenhaBtn').addEventListener('click', () => {
     })
     .catch(error => {
       console.error('Erro:', error);
-      alert('Erro ao enviar email');
+      alert('Erro ao enviar senha temporaria');
     });
   });
