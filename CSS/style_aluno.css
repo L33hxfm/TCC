@@ -205,6 +205,7 @@ html {
 /* Header */
 
 /* Main */
+/*Mural Escolar*/
 main {
     padding-top: 150px;
 }
@@ -225,31 +226,36 @@ main {
 }
 
 .calendario {
-    width: 600px;
+    width: 95%; /*mudei valor*/
     display: block;
     justify-content: center;
     margin: 20px;
+    margin-top: 10px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #f9f9f9;
     font-weight: bold;
     color: #000;
+    position: absolute; /*adicionei*/
+    top: 0%; /*adicionei*/
 }
 
 .avisos {
     height: 360px;
-    width: 600px;
+    width: 50%; /*mudei valor*/
     display: flex;
     justify-content: center;
     margin: 20px;
-    margin-top: 34.84px;
+    margin-top: 10px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #f9f9f9;
     font-weight: bold;
     color: #000;
+    top: 10%; /*adicionei*/
+   
 }
 
 .item_mural_container a {
