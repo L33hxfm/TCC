@@ -1,0 +1,28 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px;
+    margin: auto; 
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    height: 60%;
+}
+
+th, td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+td{
+    background-color: white;    
+}
+
+.tabela_dados{
+    border-collapse: collapse;
+    width: 40%;
+    margin: 31px;
+}
+
