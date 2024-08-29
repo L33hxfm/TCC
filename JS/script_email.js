@@ -1,11 +1,22 @@
 document.getElementById('recuperarSenhaBtn').addEventListener('click', () => {
-    const emailSiga = document.getElementById('email_Siga').textContent;
-  
-    fetch('https://your-vercel-app-name.vercel.app/recuperar-senha', {
-      method: 'POST'
-    })
-    .catch(error => {
+  const emailInstitucional = document.getElementById('email_inst').textContent;
+
+  fetch('https://recuperar-senha', {
+      method: 'POST',
+      headers: {
+          'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ email: emailInstitucional })
+  })
+  .then(response => {
+      if (response.ok) {
+          alert('Senha temporária enviada com sucesso para ' + emailInstitucional);
+      } else {
+          alert('Erro ao enviar senha temporária');
+      }
+  })
+  .catch(error => {
       console.error('Erro:', error);
-      alert('Erro ao enviar senha temporaria');
-    });
+      alert('Erro ao enviar senha temporária');
   });
+});
