@@ -1,3 +1,4 @@
+
 /* Perfil */
 #Perfil{
     position: relative;
@@ -80,6 +81,7 @@
 
 #CURSO_ALUNO{
     color: #000;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
 }
 /* Perfil */
