@@ -1,11 +1,26 @@
+#Cabecalho{
+    background-image: linear-gradient(to right, rgb(143, 0, 0), rgb(173, 0, 0));
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    height: 97px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    justify-content: space-between;
+}
 /* Emails */
-#Emails{
+#Emails {
     position: relative;
     display: flex;
     height: 100vh;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    
 }
-
 .logo_cps img {
     position: absolute;
     width: 95px;
@@ -14,63 +29,76 @@
     right: 20px;
 }  
 
-.emails{
-    display: grid;
-    margin: auto;
+.emails {
     background-color: #ffffff;
-    width: 50%;
-    height: 60%;
-    border: solid 0px #000;
+    width: 60%;
+    padding: 40px;
     border-radius: 10px;
-    align-items: center;
-    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.info_emails{
-    display: grid;
-    margin: auto;
-    
-}
-.email_itens{
+.email_itens {
     display: flex;
-    padding: 25px;
-    align-items: center;
-    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
-.email_itens button{
+.email_itens button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: rgb(94, 11, 11);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.email_itens p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.item_email {
+    color: #8F0000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#email_inst {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#recuperarSenhaBtn {
+    padding: 8px 20px; /* Tamanho do botão */
+            border-radius: 50px; /* Deixa as bordas arredondadas */
+            background-color: #8F0000; /* Cor de fundo */
+            color: #ffffff; /* Cor do texto */
+            font-size: 16px; /* Tamanho do texto */
+            margin-left: 10px;
+}
+
+
+#esqueceuSenha{
+    display: flex; 
+    align-items: center; 
+    padding-bottom: 30px;
+}
+
+#email_micro{
     display: flex;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    padding: 10px 15px;
-    margin-top: -25px;
     align-items: center;
-    text-align: center;
-    background-color: rgb(94, 11, 11) ;
-    border: 1px #000 solid;
 }
 
-.item_email{
-    color: black;
+#email_siga{
+    display: flex;
+    align-items: center;
+}
+
+#nome_email{
     font-weight: bold;
+    font-size: 16px;
     padding-right: 5px;
 }
-
-#email_inst{
-    color: black;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-#email_Microsoft{
-    color: black;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-#email_Siga{
-    color: black;
-    font-size: 16px;
-    font-weight: 400;
-}
-/* emails */
